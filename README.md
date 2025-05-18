@@ -1,3 +1,3 @@
 # Outreachy-Internship-2025
 
-![mypic](./images/download.png)
+![mypic](./images/Outreachy-logo.png)
