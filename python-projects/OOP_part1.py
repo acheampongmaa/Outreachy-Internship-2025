@@ -5,28 +5,28 @@ Instead of writing everything as just instructions, we group related data and be
 #Example 1
 #Creating a Car class
 
-# class Car:
-#     def __init__(self, brand, color):
-#         self.brand = brand
-#         self.color = color
-#         self.speed = 0    #starts at zero. 
+class Car:
+    def __init__(self, brand, color):
+        self.brand = brand
+        self.color = color
+        self.speed = 0    #starts at zero. 
 
-#     def start(self):
-#         print(f"{self.color} {self.brand} started.")
+    def start(self):
+        print(f"{self.color} {self.brand} started.")
 
-#     def accelarate(self):
-#         self.speed += 10  #increase the speed of car by 10
-#         print(f"{self.color} {self.brand} is moving at {self.speed} km/h.")    
+    def accelarate(self):
+        self.speed += 10  #increase the speed of car by 10
+        print(f"{self.color} {self.brand} is moving at {self.speed} km/h.")    
 
-#     def stop(self):
-#         self.speed = 0
-#         print(f"{self.color} {self.brand} stopped.")    
+    def stop(self):
+        self.speed = 0
+        print(f"{self.color} {self.brand} stopped.")    
 
-# #creating an object
-# my_car=Car("Toyota", "Blue")    
-# my_car.start()
-# my_car.accelarate()
-# my_car.stop ()   
+#creating an object
+my_car=Car("Toyota", "Blue")    
+my_car.start()
+my_car.accelarate()
+my_car.stop ()   
 
 
 #Example 2
