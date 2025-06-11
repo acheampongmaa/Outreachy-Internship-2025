@@ -15,7 +15,7 @@ class Students:
         
 
     def add_student(self):
-        return f" New student {self.name} with student ID {self.student_id} has been added to records."
+        return f"New student {self.name} with student ID {self.student_id} has been added to records."
     
     def update_record(self):
         return f"Student with name {self.name} record has gpa {self.gpa} updated."
